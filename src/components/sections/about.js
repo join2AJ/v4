@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['Python', 'PHP', 'MySQL', 'Node.js'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +135,30 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+            Hello! My name is Ajay and I enjoy finding patterns in day to day life. 
+            Sometimes they are on the computer and sometimes they are on my mind.
+            </p>
+
+            <p>
+            My interest for Data Analysis started way back before starting my career in Security field (Aug 2016) &nbsp;
+            <a href="https://rgsscareers.ril.com/"> with Reliance Industries Ltd</a>.{' '}
+
+            After an year of physical security roles and responsbilities.
+            I was working with worlds largest refinery access control and video survillence data.
+            
+            My main role was to drive insights out of those datasets. While doing day to day duties i was also learning python and a year later or so
+            </p>
+
+            <p>
+            I created one of the most precious project to me, <b>"AFFIRM Incident portal analysis" -</b>
+            This was an interactive dashboard with useful,  &amp;  meaningful insights on security incidents of company, using Python and streamlit libraries
+          
             </p>
 
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
-            </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              <a href="https://rgsscareers.ril.com/">Reliance Insudtries Ltd. &nbsp;</a>and{' '}
+              <a href="https://www.tatasteel.com/">Tatasteel Ltd</a>.{' '} 
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
